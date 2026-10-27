@@ -7,19 +7,7 @@
     },
     "server": {
       "root": "server",
-      "framework": "express",
-      "bindings": [
-        {
-          "type": "service",
-          "service": "nlp",
-          "format": "url",
-          "env": "NLP_URL"
-        }
-      ]
-    },
-    "nlp": {
-      "root": "nlp",
-      "framework": "fastapi"
+      "framework": "express"
     }
   },
   "rewrites": [
